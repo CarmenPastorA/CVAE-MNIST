@@ -5,3 +5,8 @@ experiments/
 *.ipynb_checkpoints/
 experiments/
 push_github.ipynb
+*.csv
+*.ipynb_checkpoints/
+experiments/
+push_github.ipynb
+Copia de MNIST_CVAE.ipynb
