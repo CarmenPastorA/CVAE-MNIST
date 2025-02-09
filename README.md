@@ -8,32 +8,13 @@ This project implements a **Conditional Variational Autoencoder (CVAE)** on the 
 
 The goal of this project is to demonstrate the power of **variational inference** in deep learning and how CVAEs can be used for **image generation and representation learning**.
 
-## 🧑‍💻 Technologies Used
-- Python 3.10
-- PyTorch
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-
-## 🏗 Project Structure
-
-CVAE-MNIST/ │── notebooks/ │ ├── MNIST_CVAE.ipynb # Main notebook with model training and generation │── scripts/ │ ├── train.py # (Optional) Training script │ ├── generate.py # (Optional) Script for generating images │── models/ # (Optional) Trained model checkpoints │── requirements.txt # Dependencies │── README.md # Project documentation │── .gitignore # Files to ignore in GitHub
-
-## 🚀 How to Run
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/CarmenPastorA/CVAE-MNIST.git
-   cd CVAE-MNIST
-Set up the environment: Install the required dependencies:
-
-
-pip install -r requirements.txt
-Run the notebook: Open MNIST_CVAE.ipynb in Jupyter Notebook or Google Colab and run the cells.
 
 ## 🎯 Results
 
 After training, the model should be able to generate new MNIST digits conditioned on the class label. Example of generated images:
-<img src="https://github.com/timbmg/VAE-CVAE-MNIST/blob/master/figs/1519649452.702026/E9-Dist.png" width="400"> | <img src="https://github.com/timbmg/VAE-CVAE-MNIST/blob/master/figs/1519649461.195146/E9-Dist.png" width="400">
+
+![Generated images](images/results.png)
+
 
 ## 📌 Future Improvements
 
