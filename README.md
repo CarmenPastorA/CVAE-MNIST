@@ -1,4 +1,4 @@
-# Conditional Variational Autoenoder on MNIST
+# Conditional Variational Autoencoder on MNIST
 
 CVAE paper: [Semi-supervised Learning with Deep Generative Models](https://proceedings.neurips.cc/paper/2014/hash/d523773c6b194f37b938d340d5d02232-Abstract.html)
 
